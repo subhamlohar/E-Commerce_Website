@@ -279,3 +279,6 @@ C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET c
 C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\BulkyWeb\obj\Debug\net7.0\SubhamBookWeb.pdb
 C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\BulkyWeb\obj\Debug\net7.0\SubhamBookWeb.genruntimeconfig.cache
 C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\BulkyWeb\obj\Debug\net7.0\ref\SubhamBookWeb.dll
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\BulkyWeb\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\BulkyWeb\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\BulkyWeb\obj\Debug\net7.0\SubhamBookWeb.MvcApplicationPartsAssemblyInfo.cs

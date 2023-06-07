@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using SubhamBook.Models;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace SubhamBook.Models
 {
@@ -47,7 +48,9 @@ namespace SubhamBook.Models
 
 		public int CategoryId { get; set; }
 		[ForeignKey("CategoryId")]
+		[ValidateNever]
 		public Category Category { get; set; }
+		[ValidateNever]
 		public string ImageUrl { get; set; }
 
 	}
