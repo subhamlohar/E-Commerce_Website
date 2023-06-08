@@ -19,7 +19,7 @@ namespace SubhamBookWeb.Areas.Admin.Controllers
 
 		public IActionResult Index()
 		{
-			List<Product> objProductList = _unitOfWork.Product.GetAll().ToList();
+			List<Product> objProductList = _unitOfWork.Product.GetAll(includeProperties: "Category").ToList();
 			return View(objProductList);
 		}
 
@@ -39,7 +39,7 @@ namespace SubhamBookWeb.Areas.Admin.Controllers
 				}),
 				Product = new Product()
 			};
-			if(id== null || id == 0)
+			if (id == null || id == 0)
 			{
 				//create
 				return View(productVM);
@@ -47,28 +47,28 @@ namespace SubhamBookWeb.Areas.Admin.Controllers
 			else
 			{
 				//update
-				productVM.Product= _unitOfWork.Product.Get(u=>u.Id==id);
+				productVM.Product = _unitOfWork.Product.Get(u => u.Id == id);
 				return View(productVM);
 			}
-			
+
 		}
 		[HttpPost]
-		public IActionResult Upsert(ProductVM productVM , IFormFile? file)
+		public IActionResult Upsert(ProductVM productVM, IFormFile? file)
 		{
 			if (ModelState.IsValid)
 			{
 				string wwwRootPath = _WebHostEnvironment.WebRootPath;
-				if(file != null)
+				if (file != null)
 				{
 					string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
 					string productPath = Path.Combine(wwwRootPath, @"images\product");
 
-					if(!string.IsNullOrEmpty(productVM.Product.ImageUrl))
+					if (!string.IsNullOrEmpty(productVM.Product.ImageUrl))
 					{
 						//delete the old image
 						var oldImagePath = Path.Combine(wwwRootPath, productVM.Product.ImageUrl.TrimStart('\\'));
 
-						if(System.IO.File.Exists(oldImagePath))
+						if (System.IO.File.Exists(oldImagePath))
 						{
 							System.IO.File.Delete(oldImagePath);
 						}
@@ -83,17 +83,19 @@ namespace SubhamBookWeb.Areas.Admin.Controllers
 					productVM.Product.ImageUrl = @"\images\product\" + fileName;
 				}
 
-				if(productVM.Product.Id==0)
+				if (productVM.Product.Id == 0)
 				{
 					_unitOfWork.Product.Add(productVM.Product);
+					_unitOfWork.Save();
+					TempData["success"] = "Product created successfully";
 				}
 				else
 				{
 					_unitOfWork.Product.Update(productVM.Product);
+					_unitOfWork.Save();
+					TempData["success"] = "Product Updated successfully";
 				}
 
-				_unitOfWork.Save();
-				TempData["success"] = "Product created successfully";
 				return RedirectToAction("Index");
 			}
 			else
@@ -109,38 +111,45 @@ namespace SubhamBookWeb.Areas.Admin.Controllers
 
 		}
 
+		#region API CALLS
+
 		[HttpGet]
-		public IActionResult Delete(int? id)
+		public IActionResult GetAll()
 		{
-			if (id == null || id == 0)
-			{
-				return NotFound();
-			}
-
-			Product? productFromDb = _unitOfWork.Product.Get(u => u.Id == id);
-
-			if (productFromDb == null)
-			{
-				return NotFound();
-			}
-
-			return View(productFromDb);
+			List<Product> objProductList = _unitOfWork.Product.GetAll(includeProperties: "Category").ToList();
+			return Json(new { data = objProductList });
 		}
 
 
-		[HttpPost, ActionName("Delete")]
-		public IActionResult DeletePOST(int? id)
+		[HttpDelete]
+		public IActionResult Delete(int? id)
 		{
-			Product? obj = _unitOfWork.Product.Get(u => u.Id == id);
-			if (obj == null)
+			var productToBeDeleted = _unitOfWork.Product.Get(u => u.Id == id);
+
+			if (productToBeDeleted == null)
 			{
-				return NotFound();
+				return Json(new { success = false, message = "Error while deleting" });
 			}
 
-			_unitOfWork.Product.Remove(obj);
+			//delete the old image
+			var oldImagePath = Path.Combine(_WebHostEnvironment.WebRootPath, 
+				productToBeDeleted.ImageUrl.TrimStart('\\'));
+
+			if (System.IO.File.Exists(oldImagePath))
+			{
+				System.IO.File.Delete(oldImagePath);
+			}
+
+			_unitOfWork.Product.Remove(productToBeDeleted);
 			_unitOfWork.Save();
-			TempData["success"] = "Product deleted successfully";
-			return RedirectToAction("Index");
+
+			return Json(new { success = true, message = "Delete Successful" });
+
+
+
+			#endregion
+
+
 
 		}
 	}
