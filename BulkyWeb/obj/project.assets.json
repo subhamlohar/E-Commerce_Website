@@ -4429,7 +4429,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
+          "Microsoft.Extensions.Identity.Stores": "7.0.5"
         },
         "compile": {
           "bin/placeholder/SubhamBook.Models.dll": {}
@@ -4441,6 +4442,9 @@
       "SubhamBook.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.5"
+        },
         "compile": {
           "bin/placeholder/SubhamBook.Utility.dll": {}
         },

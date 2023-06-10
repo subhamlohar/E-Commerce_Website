@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Bulky.Utility;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using SubhamBook.DataAccess.Repository.IRepository;
 using SubhamBook.Models;
@@ -7,6 +10,7 @@ using SubhamBook.Models.ViewModels;
 namespace SubhamBookWeb.Areas.Admin.Controllers
 {
 	[Area("Admin")]
+	[Authorize(Roles = SD.Role_Admin)]
 	public class ProductController : Controller
 	{
 		private readonly IUnitOfWork _unitOfWork;
