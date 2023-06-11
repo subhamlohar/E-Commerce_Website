@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\images\\product\\c7985490-33dd-4812-9daa-f63e6970d0c0.jpg"
     },
     {
+      "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\js\\company.js",
+      "PackagePath": "staticwebassets\\js\\company.js"
+    },
+    {
       "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },
