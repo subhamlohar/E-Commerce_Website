@@ -1,5 +1,7 @@
 ﻿using System.Diagnostics;
+using System.Security.Claims;
 using Bulky.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SubhamBook.DataAccess.Repository.IRepository;
 using SubhamBook.Models;
@@ -37,16 +39,32 @@ namespace SubhamBookWeb.Areas.Customer.Controllers
 			return View(cart);
 		}
 		[HttpPost]
-		public IActionResult Details(int productId)
+		[Authorize]
+		public IActionResult Details(ShoppingCart shoppingCart)
 		{
-			ShoppingCart cart = new()
-			{
-				Product = _unitOfWork.Product.Get(u => u.Id == productId, includeProperties: "Category"),
-				Count = 1,
-				ProductId = productId
-			};
+			var claimsIdentity = (ClaimsIdentity)User.Identity;
+			var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+			shoppingCart.ApplicationUserId = userId;
 
-			return View(cart);
+			ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.ApplicationUserId == userId &&
+			u.ProductId == shoppingCart.ProductId);
+
+			if(cartFromDb != null)
+			{
+				//shopping cart exists
+				cartFromDb.Count += shoppingCart.Count;
+				_unitOfWork.ShoppingCart.Update(cartFromDb);
+			}
+			else
+			{
+				_unitOfWork.ShoppingCart.Update(shoppingCart);
+			}
+
+			TempData["success"] = "Cart updated successfully";
+			_unitOfWork.Save();
+
+			return RedirectToAction(nameof(Index));
+
 		}
 
 		public IActionResult Privacy()
