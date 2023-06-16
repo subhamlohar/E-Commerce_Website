@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\book.png",
+      "PackagePath": "staticwebassets\\images\\book.png"
+    },
+    {
+      "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\lawn_leaf.jpg",
+      "PackagePath": "staticwebassets\\images\\lawn_leaf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\1765ff2b-6859-4c41-b046-fc3ca567f384.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\1765ff2b-6859-4c41-b046-fc3ca567f384.jpg"
+    },
+    {
+      "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\369b026b-c53f-42fa-8356-46e9bf78e6bf.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\369b026b-c53f-42fa-8356-46e9bf78e6bf.jpg"
+    },
+    {
       "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\4f98ded6-3590-43ba-9264-6544ac63011b.jpg",
       "PackagePath": "staticwebassets\\images\\product\\4f98ded6-3590-43ba-9264-6544ac63011b.jpg"
     },
@@ -21,12 +37,24 @@
       "PackagePath": "staticwebassets\\images\\product\\55a987ac-d6ca-4d68-9d35-fb9fcc609b22.jpg"
     },
     {
+      "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\58eae291-1be4-497c-9a6c-c92aa20a8b17.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\58eae291-1be4-497c-9a6c-c92aa20a8b17.jpg"
+    },
+    {
       "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\61ea0092-2112-4e9a-969c-e1ab509ac5fa.jpg",
       "PackagePath": "staticwebassets\\images\\product\\61ea0092-2112-4e9a-969c-e1ab509ac5fa.jpg"
     },
     {
       "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\6bfbb3ad-dfd1-42ae-a05e-c4359e46737d.jpg",
       "PackagePath": "staticwebassets\\images\\product\\6bfbb3ad-dfd1-42ae-a05e-c4359e46737d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\82f6ce6e-07c4-41c7-9de8-68c10cb46129.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\82f6ce6e-07c4-41c7-9de8-68c10cb46129.jpg"
+    },
+    {
+      "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\99cebcbd-a213-4aea-b8cf-8d71f3496308.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\99cebcbd-a213-4aea-b8cf-8d71f3496308.jpg"
     },
     {
       "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\a0c08576-4ff1-4bff-9a4b-71723fc2dac0.jpg",
@@ -39,6 +67,10 @@
     {
       "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\ad3a9707-d158-4c62-93ae-eac7a9fb7217.jpg",
       "PackagePath": "staticwebassets\\images\\product\\ad3a9707-d158-4c62-93ae-eac7a9fb7217.jpg"
+    },
+    {
+      "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\c6cb8d4e-6b34-4b62-b077-a944633c1068.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\c6cb8d4e-6b34-4b62-b077-a944633c1068.jpg"
     },
     {
       "Id": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\c726c163-4e59-4a12-9627-a60bce8699f6.jpg",

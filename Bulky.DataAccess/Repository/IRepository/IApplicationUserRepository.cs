@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess.Repository.IRepository
+namespace SubhamBook.DataAccess.Repository.IRepository
 {
 	public interface IApplicationUserRepository : IRepository<ApplicationUser>
 	{

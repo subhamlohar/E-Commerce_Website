@@ -334,9 +334,8 @@ namespace SubhamBook.DataAccess.Migrations
                     b.Property<int>("Count")
                         .HasColumnType("int");
 
-                    b.Property<string>("OrderHeaderId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
 
                     b.Property<double>("Price")
                         .HasColumnType("float");
@@ -346,7 +345,7 @@ namespace SubhamBook.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("OrderHeaderId");
+                    b.HasIndex("OrderId");
 
                     b.HasIndex("ProductId");
 
@@ -671,9 +670,9 @@ namespace SubhamBook.DataAccess.Migrations
 
             modelBuilder.Entity("SubhamBook.Models.OrderDetail", b =>
                 {
-                    b.HasOne("SubhamBook.Models.ApplicationUser", "OrderHeader")
+                    b.HasOne("SubhamBook.Models.OrderHeader", "OrderHeader")
                         .WithMany()
-                        .HasForeignKey("OrderHeaderId")
+                        .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

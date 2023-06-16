@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BulkyBook.DataAccess.Repository.IRepository;
 using SubhamBook.DataAccess.Repository.IRepository;
 
 namespace SubhamBook.DataAccess.Repository.IRepository

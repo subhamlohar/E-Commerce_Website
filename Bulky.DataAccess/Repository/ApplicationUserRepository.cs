@@ -1,4 +1,4 @@
-﻿using BulkyBook.DataAccess.Repository.IRepository;
+﻿using SubhamBook.DataAccess.Repository.IRepository;
 using SubhamBook.DataAccess.Data;
 using SubhamBook.DataAccess.Repository;
 using SubhamBook.Models;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkyBook.DataAccess.Repository
+namespace SubhamBook.DataAccess.Repository
 {
 	public class ApplicationUserRepository : Repository<ApplicationUser>, IApplicationUserRepository
 	{

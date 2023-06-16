@@ -12,11 +12,11 @@ namespace SubhamBook.Models
 	public class OrderDetail
 	{
 		public int Id { get; set; }
-		public string OrderHeaderId { get; set; }
-
-		[ForeignKey(nameof(OrderHeaderId))]
+		[Required]
+		public int OrderId { get; set; }
+		[ForeignKey("OrderId")]
 		[ValidateNever]
-		public ApplicationUser OrderHeader { get; set; }
+		public OrderHeader OrderHeader { get; set; }
 
 		[Required]
 		public int ProductId { get; set; }
@@ -26,6 +26,7 @@ namespace SubhamBook.Models
 
 		public int Count { get; set; }
 		public double Price { get; set; }
+		
 
 	}
 }
