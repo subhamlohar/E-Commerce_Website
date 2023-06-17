@@ -404,6 +404,9 @@ namespace SubhamBook.DataAccess.Migrations
                     b.Property<DateTime>("PymentDueDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("SessionId")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("ShippingDate")
                         .HasColumnType("datetime2");
 

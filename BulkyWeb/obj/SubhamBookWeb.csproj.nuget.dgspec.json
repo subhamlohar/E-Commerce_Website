@@ -64,6 +64,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.20.0, )"
             }
           },
           "imports": [
@@ -143,6 +147,10 @@
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.20.0, )"
             }
           },
           "imports": [
@@ -204,6 +212,10 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.20.0, )"
             }
           },
           "imports": [
@@ -269,6 +281,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Grpc.Core.Api": {
+              "target": "Package",
+              "version": "[2.54.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
@@ -294,6 +310,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.6, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.20.0, )"
             }
           },
           "imports": [

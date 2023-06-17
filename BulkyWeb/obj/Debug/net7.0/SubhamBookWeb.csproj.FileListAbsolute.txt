@@ -290,3 +290,5 @@ C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET c
 C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\BulkyWeb\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\BulkyWeb\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\BulkyWeb\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\BulkyWeb\bin\Debug\net7.0\Stripe.net.dll
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\BulkyWeb\bin\Debug\net7.0\Grpc.Core.Api.dll

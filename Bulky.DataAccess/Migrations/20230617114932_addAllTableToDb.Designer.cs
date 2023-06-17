@@ -12,7 +12,7 @@ using SubhamBook.DataAccess.Data;
 namespace SubhamBook.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230616202328_addAllTableToDb")]
+    [Migration("20230617114932_addAllTableToDb")]
     partial class addAllTableToDb
     {
         /// <inheritdoc />
@@ -406,6 +406,9 @@ namespace SubhamBook.DataAccess.Migrations
 
                     b.Property<DateTime>("PymentDueDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("SessionId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("ShippingDate")
                         .HasColumnType("datetime2");

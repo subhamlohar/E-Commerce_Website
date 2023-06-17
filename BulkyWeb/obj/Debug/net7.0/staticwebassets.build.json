@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lEe32e0soPEJ89+KNGEP9N+CtA6aNq5L+PU/+IyhLbo=",
+  "Hash": "xLHGkwwNcsX6dHOG9AYB7c4HECZeaEp/Fs3W/7iKvDw=",
   "Source": "SubhamBookWeb",
   "BasePath": "_content/SubhamBookWeb",
   "Mode": "Default",
@@ -1139,6 +1139,40 @@
       "OriginalItemSpec": "wwwroot\\images\\lawn_leaf.jpg"
     },
     {
+      "Identity": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\048e28a9-41e6-4da2-b710-fb7ed8ea2805.jpg",
+      "SourceId": "SubhamBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/SubhamBookWeb",
+      "RelativePath": "images/product/048e28a9-41e6-4da2-b710-fb7ed8ea2805.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\048e28a9-41e6-4da2-b710-fb7ed8ea2805.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\0e77c1e6-12d8-4d8e-9137-918347af2681.jpg",
+      "SourceId": "SubhamBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/SubhamBookWeb",
+      "RelativePath": "images/product/0e77c1e6-12d8-4d8e-9137-918347af2681.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\0e77c1e6-12d8-4d8e-9137-918347af2681.jpg"
+    },
+    {
       "Identity": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\1765ff2b-6859-4c41-b046-fc3ca567f384.jpg",
       "SourceId": "SubhamBookWeb",
       "SourceType": "Discovered",
@@ -1154,6 +1188,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\1765ff2b-6859-4c41-b046-fc3ca567f384.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\2671cd51-6757-40c9-9d4b-f5da64bcf3a1.jpg",
+      "SourceId": "SubhamBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/SubhamBookWeb",
+      "RelativePath": "images/product/2671cd51-6757-40c9-9d4b-f5da64bcf3a1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\2671cd51-6757-40c9-9d4b-f5da64bcf3a1.jpg"
     },
     {
       "Identity": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\369b026b-c53f-42fa-8356-46e9bf78e6bf.jpg",
@@ -1207,6 +1258,23 @@
       "OriginalItemSpec": "wwwroot\\images\\product\\55a987ac-d6ca-4d68-9d35-fb9fcc609b22.jpg"
     },
     {
+      "Identity": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\55fb1f80-48b4-4ac5-b508-1a41655808ce.jpg",
+      "SourceId": "SubhamBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/SubhamBookWeb",
+      "RelativePath": "images/product/55fb1f80-48b4-4ac5-b508-1a41655808ce.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\55fb1f80-48b4-4ac5-b508-1a41655808ce.jpg"
+    },
+    {
       "Identity": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\58eae291-1be4-497c-9a6c-c92aa20a8b17.jpg",
       "SourceId": "SubhamBookWeb",
       "SourceType": "Discovered",
@@ -1241,6 +1309,23 @@
       "OriginalItemSpec": "wwwroot\\images\\product\\61ea0092-2112-4e9a-969c-e1ab509ac5fa.jpg"
     },
     {
+      "Identity": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\65fdb23e-f4f5-46ce-b30b-1fbfeb38a7ee.jpg",
+      "SourceId": "SubhamBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/SubhamBookWeb",
+      "RelativePath": "images/product/65fdb23e-f4f5-46ce-b30b-1fbfeb38a7ee.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\65fdb23e-f4f5-46ce-b30b-1fbfeb38a7ee.jpg"
+    },
+    {
       "Identity": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\6bfbb3ad-dfd1-42ae-a05e-c4359e46737d.jpg",
       "SourceId": "SubhamBookWeb",
       "SourceType": "Discovered",
@@ -1273,6 +1358,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\82f6ce6e-07c4-41c7-9de8-68c10cb46129.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\905e6dfc-b5f0-490b-aa76-9fd31615f28c.jpg",
+      "SourceId": "SubhamBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/SubhamBookWeb",
+      "RelativePath": "images/product/905e6dfc-b5f0-490b-aa76-9fd31615f28c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\905e6dfc-b5f0-490b-aa76-9fd31615f28c.jpg"
     },
     {
       "Identity": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\99cebcbd-a213-4aea-b8cf-8d71f3496308.jpg",
@@ -1409,6 +1511,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\company.js"
+    },
+    {
+      "Identity": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\js\\order.js",
+      "SourceId": "SubhamBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/SubhamBookWeb",
+      "RelativePath": "js/order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
     },
     {
       "Identity": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\wwwroot\\js\\product.js",
