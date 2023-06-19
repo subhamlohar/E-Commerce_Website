@@ -55,7 +55,7 @@ namespace SubhamBookWeb.Areas.Customer.Controllers
 				OrderHeader = new()
 			};
 
-			ShoppingCartVM.OrderHeader.ApplicationUser = _unitOfWork.ApplicationUser.Get(u => u.Id == userId);
+			ShoppingCartVM.OrderHeader.ApplicationUser = _unitOfWork.ApplicationUser.GetFirstOrDefault(u => u.Id == userId);
 
 			ShoppingCartVM.OrderHeader.Name = ShoppingCartVM.OrderHeader.ApplicationUser.Name;
 			ShoppingCartVM.OrderHeader.PhoneNumber = ShoppingCartVM.OrderHeader.ApplicationUser.PhoneNumber;
@@ -87,7 +87,7 @@ namespace SubhamBookWeb.Areas.Customer.Controllers
 			ShoppingCartVM.OrderHeader.OrderDate = System.DateTime.Now;
 			ShoppingCartVM.OrderHeader.ApplicationUserId = userId;
 
-			ApplicationUser applicationUser = _unitOfWork.ApplicationUser.Get(u => u.Id == userId);
+			ApplicationUser applicationUser = _unitOfWork.ApplicationUser.GetFirstOrDefault(u => u.Id == userId);
 
 
 			foreach (var cart in ShoppingCartVM.ShoppingCartList)
@@ -132,7 +132,7 @@ namespace SubhamBookWeb.Areas.Customer.Controllers
 				var options = new SessionCreateOptions
 				{
 					SuccessUrl = domain+ $"customer/cart/OrderConfirmation?id={ShoppingCartVM.OrderHeader.Id}",
-					CancelUrl= domain+"customer/cart/index",
+					CancelUrl= domain+ $"customer/cart/index",
 					LineItems = new List<SessionLineItemOptions>(), 
 					Mode = "payment",
 				};
@@ -168,7 +168,7 @@ namespace SubhamBookWeb.Areas.Customer.Controllers
 
 		public IActionResult OrderConfirmation(int id)
 		{
-			OrderHeader orderHeader=_unitOfWork.OrderHeader.Get(u=>u.Id== id,includeProperties:"ApplicationUser");
+			OrderHeader orderHeader=_unitOfWork.OrderHeader.GetFirstOrDefault(u=>u.Id== id,includeProperties:"ApplicationUser");
 			if(orderHeader.PaymentStatus!=SD.PaymentStatusForDelayedPayment)
 			{
 				//this is an order by customer
@@ -196,7 +196,7 @@ namespace SubhamBookWeb.Areas.Customer.Controllers
 
 		public IActionResult Plus(int cartId)
 		{
-			var cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.Id == cartId);
+			var cartFromDb = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == cartId);
 			cartFromDb.Count += 1;
 			_unitOfWork.ShoppingCart.Update(cartFromDb);
 			_unitOfWork.Save();
@@ -205,7 +205,7 @@ namespace SubhamBookWeb.Areas.Customer.Controllers
 
 		public IActionResult Minus(int cartId)
 		{
-			var cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.Id == cartId);
+			var cartFromDb = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == cartId);
 			if (cartFromDb.Count <= 1)
 			{
 				//remove from the cart
@@ -224,7 +224,7 @@ namespace SubhamBookWeb.Areas.Customer.Controllers
 
 		public IActionResult Remove(int cartId)
 		{
-			var cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.Id == cartId);
+			var cartFromDb = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == cartId);
 
 			_unitOfWork.ShoppingCart.Remove(cartFromDb);
 			_unitOfWork.Save();

@@ -42,7 +42,7 @@ namespace SubhamBookWeb.Areas.Admin.Controllers
 			else
 			{
 				//update
-				Company CompanyObj = _unitOfWork.Company.Get(u => u.Id == id);
+				Company CompanyObj = _unitOfWork.Company.GetFirstOrDefault(u => u.Id == id);
 				return View(CompanyObj);
 			}
 
@@ -88,7 +88,7 @@ namespace SubhamBookWeb.Areas.Admin.Controllers
 		[HttpDelete]
 		public IActionResult Delete(int? id)
 		{
-			var CompanyToBeDeleted = _unitOfWork.Company.Get(u => u.Id == id);
+			var CompanyToBeDeleted = _unitOfWork.Company.GetFirstOrDefault(u => u.Id == id);
 
 			if (CompanyToBeDeleted == null)
 			{

@@ -31,7 +31,7 @@ namespace SubhamBookWeb.Areas.Customer.Controllers
 		{
 			ShoppingCart cart= new()
 			{
-				Product = _unitOfWork.Product.Get(u => u.Id == productId, includeProperties: "Category"),
+				Product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == productId, includeProperties: "Category"),
 				Count = 1,
 				ProductId= productId
 			};
@@ -46,7 +46,7 @@ namespace SubhamBookWeb.Areas.Customer.Controllers
 			var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
 			shoppingCart.ApplicationUserId = userId;
 
-			ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.ApplicationUserId == userId &&
+			ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.ApplicationUserId == userId &&
 			u.ProductId == shoppingCart.ProductId);
 
 			if(cartFromDb != null)

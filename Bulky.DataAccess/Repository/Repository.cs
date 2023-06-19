@@ -22,7 +22,7 @@ namespace SubhamBook.DataAccess.Repository
 			dbSet.Add(entity);
 		}
 
-		public T Get(Expression<Func<T, bool>>? filter, string? includeProperties = null, bool tracked = false)
+		public T GetFirstOrDefault(Expression<Func<T, bool>>? filter, string? includeProperties = null, bool tracked = false)
 		{
 			IQueryable<T> query = dbSet;
 			if (tracked)

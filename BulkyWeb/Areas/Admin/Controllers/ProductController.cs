@@ -51,7 +51,7 @@ namespace SubhamBookWeb.Areas.Admin.Controllers
 			else
 			{
 				//update
-				productVM.Product = _unitOfWork.Product.Get(u => u.Id == id);
+				productVM.Product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
 				return View(productVM);
 			}
 
@@ -128,7 +128,7 @@ namespace SubhamBookWeb.Areas.Admin.Controllers
 		[HttpDelete]
 		public IActionResult Delete(int? id)
 		{
-			var productToBeDeleted = _unitOfWork.Product.Get(u => u.Id == id);
+			var productToBeDeleted = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
 
 			if (productToBeDeleted == null)
 			{
