@@ -9,6 +9,7 @@
       "SubhamBookWeb/1.0.0": {
         "dependencies": {
           "Grpc.Core.Api": "2.54.0",
+          "Microsoft.AspNetCore.Authentication.Facebook": "7.0.8",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.5",
           "Microsoft.AspNetCore.Identity.UI": "7.0.5",
           "Microsoft.EntityFrameworkCore": "7.0.5",
@@ -97,6 +98,14 @@
           "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0"
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/7.0.8": {
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "7.0.8.0",
+            "fileVersion": "7.0.823.31807"
+          }
         }
       },
       "Microsoft.AspNetCore.Authorization/2.2.0": {
@@ -2716,6 +2725,13 @@
       "sha512": "sha512-XlVJzJ5wPOYW+Y0J6Q/LVTEyfS4ssLXmt60T0SPP+D8abVhBTl+cgw2gDHlyKYIkcJg7btMVh383NDkMVqD/fg==",
       "path": "microsoft.aspnetcore.authentication.core/2.2.0",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/7.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l+31C79/B7/r1UyGiI7J7qyO25Un0YXlkMXzCD3G3+7wy6O73qDOuzreo9sHbzdYlNkWbyKDrTmTkGcYj9hIPw==",
+      "path": "microsoft.aspnetcore.authentication.facebook/7.0.8",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.7.0.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/2.2.0": {
       "type": "package",
