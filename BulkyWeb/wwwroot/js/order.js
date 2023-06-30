@@ -18,7 +18,13 @@ $(document).ready(function () {
                     loadDataTable("approved");
                 }
                 else {
-                    loadDataTable("all");
+                    if (url.includes("cancelled")) {
+                        loadDataTable("cancelled");
+                    }
+                    else {
+                        loadDataTable("all");
+                    }
+                    
                 }
             }
         }

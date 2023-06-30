@@ -244,6 +244,9 @@ namespace SubhamBookWeb.Areas.Admin.Controllers
 				case "approved":
 					objOrderHeaders = objOrderHeaders.Where(u => u.OrderStatus == SD.StatusApproved);
 					break;
+				case "cancelled":
+					objOrderHeaders = objOrderHeaders.Where(u => u.OrderStatus == SD.StatusCancelled);
+					break;
 				default:
 					break;
 			}
