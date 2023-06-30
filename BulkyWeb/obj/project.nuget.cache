@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xqhIlfemVGx3iaJXtDGTyVpfS3XwIb4nLcR3HTSPvOSnZDMnOWG3SgUfUv32k8hQSKMz1UPo1qHqsWR7tqflFQ==",
+  "dgSpecHash": "BE7M/lncVE1trP9IC7KjuhiwHuqlVuZAsYH7a85ESa6G8K0GnhUb9q5KSbIgFUXvSHLZBAaTsziLLTDFA/1raA==",
   "success": true,
   "projectFilePath": "C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1.CODING\\ASP.NET Projects\\1.ASP.NET core MVC\\BulkyWeb\\Bulky\\BulkyWeb\\SubhamBookWeb.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\subha\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
+    "C:\\Users\\subha\\.nuget\\packages\\azure.core\\1.33.0\\azure.core.1.33.0.nupkg.sha512",
     "C:\\Users\\subha\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\subha\\.nuget\\packages\\grpc.core.api\\2.54.0\\grpc.core.api.2.54.0.nupkg.sha512",
     "C:\\Users\\subha\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

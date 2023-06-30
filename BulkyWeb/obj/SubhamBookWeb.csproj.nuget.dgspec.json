@@ -281,6 +281,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.33.0, )"
+            },
             "Grpc.Core.Api": {
               "target": "Package",
               "version": "[2.54.0, )"
