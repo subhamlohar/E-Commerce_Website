@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'SubhamBookMvc'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5B6B78DA710046E9908F87766020F3F1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B6D18DECC8874F95B1ED8595874FBF8D }}
           package: .
