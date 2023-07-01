@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\BulkyWeb\obj\Release\net7.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\BulkyWeb\obj\Release\net7.0\PubTmp\EFSQLScripts\SubhamBook.DataAccess.Data.ApplicationDbContext.sql" />
+</sitemanifest>
