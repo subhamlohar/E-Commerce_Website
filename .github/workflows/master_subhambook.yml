@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'SubhamBook'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5502E5184402401182B6CE98649C2260 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_52003B4553CD4DEE8F2544ABD94BBFF7 }}
           package: .
