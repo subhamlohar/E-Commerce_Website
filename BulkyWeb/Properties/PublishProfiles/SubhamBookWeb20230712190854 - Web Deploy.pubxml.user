@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAH4eu3XGBk0Sr+9jjITsWrgAAAAACAAAAAAAQZgAAAAEAACAAAADXifIsES4mWcxFMCVpNlPg2+nCp3E9NfR8tHKFdPwOHgAAAAAOgAAAAAIAACAAAAAfqRYFO2lt83risB9PLV2uCmXy3+GY+j2vXsTfQqJpoIAAAAAGZCFpCOyrydnWv/tNYb/tcGph0iGx6tMMdt7EHXgrsthfDyLe9TLXOmP4ZBev1bTwFTE7VJftQbdGmoAj0zC9L6CQVUKAPvRJpX6DNj2Oj6KfXTFtDjXmfX42onXzzUwX/SWjYxMXK69ZDvthOCbWpOLS4O3oFZmjADKMc/DqPEAAAAA//WoXhWCJEfKACd0DEsIVA9Cu/xzGH0kTR8XTQo6Fqa5A2WaNholx1BydPYdzI6CRnPvrsZ6o+oR+HZQ0+e6R</EncryptedPassword>
+    <History>True|2023-07-12T13:47:28.6172090Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:subhambook.database.windows.net,1433%3bInitial Catalog=SubhamBookDB%3bPersist Security Info=False%3bUser ID=adminuser%3bPassword=Admin%40123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

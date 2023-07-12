@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SubhamBookWeb20230712190854" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\subha\\OneDrive\\Desktop\\PLACEMENTS\\1\.CODING\\ASP\.NET\ Projects\\1\.ASP\.NET\ core\ MVC\\BulkyWeb\\Bulky\\BulkyWeb\\obj\\Release\\net7\.0\\win-x86\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
