@@ -1,0 +1,56 @@
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\bin\Debug\net7.0\SubhamBook.Models.deps.json
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\bin\Debug\net7.0\SubhamBook.Models.runtimeconfig.json
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\bin\Debug\net7.0\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\bin\Debug\net7.0\SubhamBook.Models.pdb
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.csproj.AssemblyReference.cache
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.AssemblyInfoInputs.cache
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.AssemblyInfo.cs
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.csproj.CoreCompileInputs.cache
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\obj\Debug\net7.0\refint\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.pdb
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.genruntimeconfig.cache
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Bulky.Models\obj\Debug\net7.0\ref\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\bin\Debug\net7.0\SubhamBook.Models.deps.json
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\bin\Debug\net7.0\SubhamBook.Models.runtimeconfig.json
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\bin\Debug\net7.0\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\bin\Debug\net7.0\SubhamBook.Models.pdb
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.csproj.AssemblyReference.cache
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.AssemblyInfoInputs.cache
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.AssemblyInfo.cs
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.csproj.CoreCompileInputs.cache
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\obj\Debug\net7.0\refint\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.pdb
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\obj\Debug\net7.0\SubhamBook.Models.genruntimeconfig.cache
+C:\Users\subha\OneDrive\Desktop\Bulky\Bulky.Models\obj\Debug\net7.0\ref\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\bin\Debug\net7.0\SubhamBook.Models.deps.json
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\bin\Debug\net7.0\SubhamBook.Models.runtimeconfig.json
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\bin\Debug\net7.0\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\bin\Debug\net7.0\SubhamBook.Models.pdb
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.csproj.AssemblyReference.cache
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.AssemblyInfoInputs.cache
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.AssemblyInfo.cs
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.csproj.CoreCompileInputs.cache
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\obj\Debug\net7.0\refint\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.pdb
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.genruntimeconfig.cache
+C:\Users\subha\OneDrive\Desktop\Bulky\Subham.Models\obj\Debug\net7.0\ref\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\bin\Debug\net7.0\SubhamBook.Models.deps.json
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\bin\Debug\net7.0\SubhamBook.Models.runtimeconfig.json
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\bin\Debug\net7.0\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\bin\Debug\net7.0\SubhamBook.Models.pdb
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.csproj.AssemblyReference.cache
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.AssemblyInfoInputs.cache
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.AssemblyInfo.cs
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.csproj.CoreCompileInputs.cache
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\obj\Debug\net7.0\refint\SubhamBook.Models.dll
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.pdb
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\obj\Debug\net7.0\SubhamBook.Models.genruntimeconfig.cache
+C:\Users\subha\OneDrive\Desktop\PLACEMENTS\1.CODING\ASP.NET Projects\1.ASP.NET core MVC\BulkyWeb\Bulky\Subham.Models\obj\Debug\net7.0\ref\SubhamBook.Models.dll
